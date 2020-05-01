@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="default-style" content="text/html; charset=utf-8"/>
+<title>Keyboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>-->
+<script type="text/javascript" src="js/main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="loadDiv" style="background-color: #006633; height: 100%; width:100%;">
+<section class="loader"></section>
+</section>  
+<div class="main_container" name="keybordss">           
+	<header class="header">
+        <img src="images/Logo.svg">
+	</header>
+    <div class="keyBoard">
+	<div class="col-6 alphabet">
+	<div class="keyboardLayout">
+        <div class="rows" id="row1">
+			<div class="groups" id="grpSet1">
+				<div class="keys" id="key1">1</div>
+				<div class="keys" id="key2">2</div>
+				<div class="keys" id="key3">3</div>
+				
+			</div>
+			<div class="groups" id="grpSet2">
+                <div class="keys" id="key4">4</div>
+				<div class="keys" id="key5">5</div>
+				<div class="keys" id="key6">6</div>
+			</div>
+			<div class="groups" id="grpSet3">
+                <div class="keys" id="key7">7</div>
+				<div class="keys" id="key8">8</div>
+				<div class="keys" id="key9">9</div>
+				<div class="keys" id="key10">0</div>
+			</div>
+		</div>
+		<div class="rows" id="row2">
+			<div class="groups" id="grpSet4">
+				<div class="keys" id="key11">q</div>
+				<div class="keys" id="key12">w</div>
+				<div class="keys" id="key13">e</div>
+			</div>
+			<div class="groups" id="grpSet5">
+                <div class="keys" id="key14">r</div>
+				<div class="keys" id="key15">t</div>
+				<div class="keys" id="key16">y</div>
+			</div>
+			<div class="groups" id="grpSet6">
+                <div class="keys" id="key17">u</div>
+				<div class="keys" id="key18">i</div>
+				<div class="keys" id="key19">o</div>
+				<div class="keys" id="key20">p</div>
+			</div>
+		</div>
+		<div class="rows" id="row3">
+		<div class="groups" id="grpSet7">
+				<div class="keys" id="key21">a</div>
+				<div class="keys" id="key22">s</div>
+				<div class="keys" id="key23">d</div>
+			</div>
+			<div class="groups" id="grpSet8">
+                <div class="keys" id="key24">f</div>
+				<div class="keys" id="key25">g</div>
+				<div class="keys" id="key26">h</div>
+			</div>
+			<div class="groups" id="grpSet9">
+                <div class="keys" id="key27">j</div>
+				<div class="keys" id="key28">k</div>
+				<div class="keys" id="key29">l</div>				
+			</div>
+		</div>
+		<div class="rows" id="row4">
+			<div class="groups" id="grpSet10">
+				<div class="keys up" id="key30"></div>
+				<div class="keys" id="key31">z</div>
+				<div class="keys" id="key32">x</div>
+			</div>
+			<div class="groups" id="grpSet11">
+                <div class="keys" id="key33">c</div>
+				<div class="keys" id="key34">v</div>
+				<div class="keys" id="key35">b</div>
+			</div>
+			<div class="groups" id="grpSet12">
+                <div class="keys" id="key36">n</div>
+				<div class="keys" id="key37">m</div>
+				<div class="keys side" id="key38"></div>				
+			</div>
+		</div>
+		<div class="rows" id="row5">
+		<div class="groups" id="grpSet13">
+				<div class="keys" id="key39">?@&</div>
+        </div>
+        <div class="groups" id="grpSet20">
+				<div class="keys" id="key40">Space</div>
+        </div>
+        <div class="groups" id="grpSet21">
+				<div class="keys" id="key41">Return</div>
+        </div>
+		</div>
+		</div>
+	</div>
+        
+<div class="punctuation">    
+<div class="specialCharacter hide">
+    
+        <div class="rows" id="row6">
+			<div class="groups" id="grpSet14">
+				<div class="keys" id="key42">@</div>
+				<div class="keys" id="key43">#</div>
+				<div class="keys" id="key44">$</div>
+			</div>
+			<div class="groups" id="grpSet15">
+                <div class="keys" id="key45">_</div>
+				<div class="keys" id="key46">&</div>
+				<div class="keys" id="key47">-</div>
+			</div>
+			<div class="groups" id="grpSet16">
+                <div class="keys" id="key48">+</div>
+				<div class="keys" id="key49">/</div>
+				<div class="keys" id="key50">(</div>
+				<div class="keys" id="key51">)</div>
+			</div>
+        </div>
+
+    <div class="rows" id="row7">
+		<div class="groups" id="grpSet17">
+				<div class="keys" id="key52">*</div>
+				<div class="keys" id="key53">"</div>
+				<div class="keys" id="key54">'</div>
+        </div>
+        <div class="groups" id="grpSet18">
+				<div class="keys" id="key55">:</div>
+				<div class="keys" id="key56">;</div>
+				<div class="keys" id="key57">!</div>
+        </div>
+        <div class="groups" id="grpSet22">
+				<div class="keys" id="key58">?</div>
+				<div class="keys side" id="key59"></div>
+        </div>
+    </div>
+
+    <div class="rows" id="row8">
+		<div class="groups" id="grpSet19">
+				<div class="keys" id="key60">ABC</div>
+        </div>
+        <div class="groups" id="grpSet23">
+				<div class="keys" id="key61">Space</div>
+        </div>
+        <div class="groups" id="grpSet24">
+				<div class="keys" id="key62">Return</div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+
+		<div class="centerSpace right">
+            <h3 class="label">Text Output</h3>
+		<aside class="aside">
+			<textarea id="outputArea" class="outputArea" rows="10" cols="40"></textarea>
+		</aside>
+		</div>
+
+	<footer class="footer">
+		<div class="keybordbuttons">
+		<button class="button" id="start">Start</button>
+		<button class="button SwitchDisble" id="switch">Switch</button>
+        <button class="button CopyDisble" tabindex="-1" id="copy">Copy</button>
+        <button class="button ClearDisble" tabindex="-1" id="clear">Clear</button>
+    </div>
+	</footer>
+</div> 
+
+</body>
+</html>
